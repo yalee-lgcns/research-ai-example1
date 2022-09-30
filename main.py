@@ -1,6 +1,8 @@
-def hello(a):
-    print("hello : {a}")
+def helloworld(a):
+    msg = f"hello : {a}"
+    print(msg)
+    return msg
 
 if __name__ == "__main_":
-    hello("yalee")
+    helloworld("yalee")
 
